@@ -9,7 +9,7 @@
   <title>Starter Template · Bootstrap v4.6</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link href="starter-template.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/starter-template.css" />
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -28,7 +28,8 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+      <label for="search">Search</label>
+      <input class="form-control mr-sm-2" type="text" id="search" placeholder="Search" aria-label="Search" />
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
@@ -39,7 +40,7 @@
     <h1>Marketplace - Backoffice</h1>
     <p class="lead">Use this document as a way to quickly start any new project.<br />All you get is this text and a mostly barebones HTML document.</p>
   </div>
-  <form>
+  <form type="post">
     <div class="form-group">
       <label for="name">Nome prodotto</label>
       <input type="text" class="form-control" id="name" />
@@ -70,7 +71,4 @@
 <!-- /.container -->
 
 <script src="js/jquery.slim.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="./backoffice.js"></script>
-</body>
-</html>
+<script src="js/bootstrap.bundle.min.js

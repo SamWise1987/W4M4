@@ -1,12 +1,106 @@
+/* Stili generali per migliorare l'aspetto delle pagine */
 body {
-  padding-top: 5rem;
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
+
+/* Stili per la navbar */
+.navbar {
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Stili per il contenitore principale */
+.container {
+  max-width: 960px;
+  margin-top: 30px;
+}
+
+/* Stili per la template starter */
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.starter-template h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.starter-template p.lead {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+/* Stili per il form nel backoffice */
+.form-group label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Stili per i prodotti */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   object-fit: cover;
-  aspect-ratio: 1/1;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card a.btn {
+  margin-top: 10px;
+}
+
+/* Stili per il search box */
+.form-inline label {
+  margin-right: 10px;
+}
+
+.form-inline input[type="text"] {
+  border-radius: 5px;
 }
